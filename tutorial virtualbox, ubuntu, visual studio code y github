@@ -95,19 +95,19 @@ Y listo
 
 istalacion de visual studio code y github
 1. Instalación de Visual Studio Code
-​Entraste a la página oficial (code.visualstudio.com), descargaste el instalador para Windows y ejecutaste el archivo .exe.
-​Aceptaste los términos y marcaste las casillas para agregar el editor al menú contextual.
+​Entraste a la página oficial (code.visualstudio.com), descargar el instalador para Windows y ejecutaste el archivo .exe.
+​Aceptar los términos y marcaste las casillas para agregar el editor al menú contextual.
 ​2. Instalación de Git
-​Fuiste a git-scm.com para bajar la versión de Git correspondiente a tu sistema.
-​Durante la instalación, dejaste las opciones predeterminadas y finalizaste el asistente.
+​Ve a git-scm.com para bajar la versión de Git correspondiente a tu sistema.
+​Durante la instalación, deja las opciones predeterminadas y finalizaste el asistente.
 ​En la terminal, configuraste tu identidad global ejecutando:
 ​git config --global user.name "TuNombre"
 ​git config --global user.email "tu_email@ejemplo.com"
 ​3. Creación y Vinculación con GitHub
-​Creaste una cuenta gratuita en github.com.
+​Crea una cuenta gratuita en github.com.
 ​En VS Code, hiciste clic en el icono de Cuentas (abajo a la izquierda) y seleccionaste Backup and Sync Settings... para conectar tu cuenta de GitHub.
 ​Autorizaste el acceso en el navegador mediante el botón Authorize Visual-Studio-Code.
 ​4. Creación del primer repositorio
 ​Entraste a GitHub, hacer clic en el botón + > New repository.
-​Le asignaste un nombre al proyecto, seleccionaste si era Público o Privado y presionaste Create repository.
+​Le asignas un nombre al proyecto, seleccionaste si era Público o Privado y presionaste Create repository.
 ​Finalmente, usaste la opción Upload files o Add file para subir tus archivos de trabajo.
