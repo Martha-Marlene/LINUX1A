@@ -1,0 +1,113 @@
+Tutorial completo: instalar Ubuntu en VirtualBox
+1. Descargar VirtualBox
+En Windows:
+Abre tu navegador.
+Busca VirtualBox.
+Entra a la página oficial de Oracle.
+Busca Downloads.
+Descarga Windows hosts.
+Cuando termine la descarga, abre el instalador.
+Dale: Next → Next → Yes → Install.
+Si Windows pregunta si permites cambios, dale Sí.
+Al terminar, abre Oracle VM VirtualBox.
+2. Descargar Ubuntu
+Ahora necesitamos Ubuntu.
+Abre otra pestaña.
+Busca Ubuntu Desktop download.
+Entra a la página oficial de Ubuntu.
+Descarga la versión Ubuntu Desktop LTS.
+Se descargará un archivo que termina en: .iso
+ Ese archivo ISO es importante. No lo abras ni lo borres. Es el que VirtualBox utilizará para instalar Ubuntu.
+3. Crear la máquina virtual
+Abre VirtualBox.
+Presiona New / Nueva.
+Ponle un nombre, por ejemplo:
+Ubuntu
+En ISO Image, selecciona el archivo .iso que descargaste.
+Si aparece una opción de Skip Unattended Installation, podemos usarla para hacer la instalación manualmente y que veas todo.
+Dale Next.
+4. Memoria RAM
+Aquí te aparecerá algo como:
+Memory / Memoria
+Puedes asignar aproximadamente:
+4096 MB (4 GB)
+Si tu computadora tiene suficiente RAM.
+Luego sigue con Next.
+5. Disco duro virtual
+Selecciona:
+Create a Virtual Hard Disk Now
+Y puedes poner alrededor de:
+50 GB
+Luego:
+Next → Finish
+Esto NO borra ni modifica el Windows de tu laptop. Es un disco virtual dentro de Windows.
+6. Iniciar Ubuntu
+Ahora aparecerá la máquina:
+ Ubuntu
+Selecciónala y presiona:
+Start / Iniciar
+VirtualBox arrancará la ISO.
+Después de unos momentos aparecerá la pantalla de Ubuntu.
+7. Instalar Ubuntu
+En la pantalla inicial selecciona:
+Install Ubuntu
+Luego aparecerán varias opciones.
+Idioma
+Selecciona Español si quieres que Ubuntu esté en español.
+Teclado
+Puedes seleccionar:
+Español / Español Latinoamericano
+y probar que las teclas funcionen correctamente.
+Tipo de instalación
+Cuando pregunte cómo instalar Ubuntu, como estamos dentro de VirtualBox, puedes elegir:
+Erase disk and install Ubuntu
+En este caso se refiere al disco virtual de la máquina de Ubuntu, NO al disco físico de tu laptop.
+8. Crear tu usuario
+Te va a pedir datos como:
+Your name:
+Tu nombre.
+Computer's name:
+Puedes poner:
+ubuntu
+Username:
+El nombre que quieras utilizar.
+Password:
+Aquí creas tu contraseña.
+Guarda bien esa contraseña, porque Ubuntu te la pedirá para iniciar sesión y para algunas acciones importantes.
+9. Comenzará la instalación
+Ahora Ubuntu comenzará a instalarse.
+Verás una barra de progreso.
+Aquí simplemente espera.
+Puede tardar varios minutos dependiendo de tu computadora.
+10. Reiniciar
+Cuando termine aparecerá algo parecido a:
+Installation complete
+y te pedirá reiniciar.
+Presiona:
+Restart Now
+Si aparece un mensaje diciendo que retires el medio de instalación, normalmente basta con presionar Enter.
+11. Primera vez que entras
+Ubuntu arrancará y aparecerá la pantalla de inicio de sesión.
+Seleccionas tu usuario.
+Introduces la contraseña que tú creaste.
+Y listo
+
+
+istalacion de visual studio code y github
+1. Instalación de Visual Studio Code
+​Entraste a la página oficial (code.visualstudio.com), descargaste el instalador para Windows y ejecutaste el archivo .exe.
+​Aceptaste los términos y marcaste las casillas para agregar el editor al menú contextual.
+​2. Instalación de Git
+​Fuiste a git-scm.com para bajar la versión de Git correspondiente a tu sistema.
+​Durante la instalación, dejaste las opciones predeterminadas y finalizaste el asistente.
+​En la terminal, configuraste tu identidad global ejecutando:
+​git config --global user.name "TuNombre"
+​git config --global user.email "tu_email@ejemplo.com"
+​3. Creación y Vinculación con GitHub
+​Creaste una cuenta gratuita en github.com.
+​En VS Code, hiciste clic en el icono de Cuentas (abajo a la izquierda) y seleccionaste Backup and Sync Settings... para conectar tu cuenta de GitHub.
+​Autorizaste el acceso en el navegador mediante el botón Authorize Visual-Studio-Code.
+​4. Creación del primer repositorio
+​Entraste a GitHub, hacer clic en el botón + > New repository.
+​Le asignaste un nombre al proyecto, seleccionaste si era Público o Privado y presionaste Create repository.
+​Finalmente, usaste la opción Upload files o Add file para subir tus archivos de trabajo.
