@@ -1,9 +1,5 @@
-Sí. Ya revisé el texto exacto que tienes en GitHub, y ahora sí puedo hacerlo sobre tu versión real, no inventando pasos. Tu tutorial tiene una buena base y cubre desde VirtualBox hasta GitHub; lo que voy a cambiar es principalmente la forma de contarlo para que suene a una estudiante que está aprendiendo y explicando lo que hizo, no a documentación oficial. �
-GitHub
-Te lo dejaría así:
-Escritura
+
 Tutorial: Instalación de VirtualBox, Ubuntu, Visual Studio Code y GitHub
-En este tutorial voy a explicar paso a paso cómo instalé Ubuntu utilizando VirtualBox y después cómo configuré Visual Studio Code, Git y GitHub. La idea es mostrar el proceso desde el principio, incluyendo las partes que tuve que configurar para poder trabajar con todo correctamente.
 1. Descargar VirtualBox
 Primero abrí el navegador y busqué VirtualBox. Entré a la página oficial de Oracle y fui a la sección de descargas.
 Como estaba trabajando en Windows, seleccioné la opción Windows hosts y esperé a que terminara la descarga.
