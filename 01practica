@@ -1,0 +1,108 @@
+Tutorial: Instalación de VirtualBox, Ubuntu, Visual Studio Code y GitHub
+1. Descargar VirtualBox
+Primero abrí el navegador y busqué VirtualBox. Entré a la página oficial de Oracle y fui a la sección de descargas.
+Como estaba trabajando en Windows, seleccioné la opción Windows hosts y esperé a que terminara la descarga.
+Cuando terminó, abrí el instalador y fui siguiendo los pasos que aparecían en pantalla. Básicamente fui seleccionando:
+Next → Next → Yes → Install
+En caso de que Windows preguntara si permitía que el programa hiciera cambios en el equipo, seleccioné Sí.
+Cuando terminó la instalación, abrí Oracle VM VirtualBox para continuar con la configuración.
+2. Descargar Ubuntu
+Después necesité descargar Ubuntu. Para esto abrí otra pestaña del navegador y busqué Ubuntu Desktop.
+Entré a la página oficial de Ubuntu y descargué la versión Ubuntu Desktop LTS.
+El archivo que se descarga termina en .iso. Este archivo es importante porque es el que después utiliza VirtualBox para instalar Ubuntu, así que lo dejé guardado y no lo eliminé.
+3. Crear la máquina virtual
+Ya con VirtualBox instalado y el archivo de Ubuntu descargado, abrí VirtualBox.
+Seleccioné New / Nueva para crear una máquina virtual.
+En el nombre puse:
+Ubuntu
+Después, en ISO Image, seleccioné el archivo .iso que había descargado anteriormente.
+Si aparece la opción Skip Unattended Installation, se puede seleccionar para hacer la instalación manualmente. Yo preferí hacerlo de esta manera para poder ver y configurar los diferentes pasos de la instalación.
+Después seleccioné Next.
+4. Configurar la memoria RAM
+En la siguiente parte apareció la configuración de memoria.
+Aquí se puede asignar aproximadamente 4096 MB (4 GB) de RAM, siempre tomando en cuenta la cantidad de memoria que tenga la computadora.
+Después de configurar la memoria, continué con Next.
+5. Crear el disco duro virtual
+Después apareció la opción para configurar el almacenamiento de la máquina virtual.
+Seleccioné:
+Create a Virtual Hard Disk Now
+Como espacio de almacenamiento utilicé aproximadamente 50 GB.
+Después continué con:
+Next → Finish
+Algo importante que entendí en esta parte es que este espacio no significa que Ubuntu vaya a borrar el Windows de la computadora. Es un disco virtual que se crea dentro del equipo para que Ubuntu pueda funcionar mediante VirtualBox.
+6. Iniciar Ubuntu
+Ya que terminé de crear la máquina virtual, apareció en VirtualBox con el nombre Ubuntu.
+La seleccioné y presioné:
+Start / Iniciar
+VirtualBox comenzó a utilizar el archivo ISO que había descargado y, después de esperar un momento, apareció la pantalla de Ubuntu.
+7. Instalar Ubuntu
+Cuando apareció la pantalla inicial de Ubuntu, seleccioné:
+Install Ubuntu
+Después comenzaron a aparecer las diferentes opciones de configuración.
+Idioma
+Seleccioné Español, ya que es el idioma que quería utilizar en Ubuntu.
+Teclado
+Después configuré el teclado. Seleccioné:
+Español / Español Latinoamericano
+También se puede probar el teclado para comprobar que las teclas funcionen correctamente antes de continuar.
+Tipo de instalación
+Más adelante apareció la opción para elegir cómo se quería instalar Ubuntu.
+Como Ubuntu se estaba instalando dentro de una máquina virtual, seleccioné:
+Erase disk and install Ubuntu
+Al principio puede parecer un poco extraño porque dice que va a borrar el disco, pero en este caso se refiere al disco virtual que creamos en VirtualBox, no al disco físico de la computadora.
+8. Crear el usuario
+Después de configurar la instalación, Ubuntu pidió algunos datos para crear el usuario.
+Aparecieron opciones como:
+Your name:
+Aquí puse mi nombre.
+Computer's name:
+En esta parte se puede poner un nombre para identificar la computadora. Yo utilicé:
+ubuntu
+Username:
+Aquí se escribe el nombre de usuario que se va a utilizar para iniciar sesión.
+Password:
+Finalmente creé una contraseña.
+Esta contraseña es importante porque Ubuntu la pide para iniciar sesión y también para realizar algunas acciones dentro del sistema, así que es importante guardarla y no olvidarla.
+9. Esperar a que termine la instalación
+Después de completar los datos, comenzó la instalación de Ubuntu.
+En la pantalla apareció una barra de progreso para mostrar cómo iba avanzando.
+En esta parte solamente tuve que esperar. El tiempo puede variar dependiendo de la computadora y de los recursos que tenga asignados la máquina virtual.
+10. Reiniciar Ubuntu
+Cuando la instalación terminó, apareció un mensaje indicando que ya estaba completa:
+Installation complete
+Después seleccioné:
+Restart Now
+Ubuntu se reinició para poder comenzar a utilizar el sistema que acababa de instalar.
+Si aparece un mensaje indicando que se retire el medio de instalación, normalmente basta con presionar Enter para continuar.
+11. Primer inicio de sesión
+Después del reinicio apareció la pantalla de inicio de sesión de Ubuntu.
+Seleccioné el usuario que había creado anteriormente y escribí la contraseña.
+Y listo, ya pude entrar a Ubuntu y comprobar que la instalación había terminado correctamente.
+Instalación de Visual Studio Code y Git
+Después de tener Ubuntu listo, continué con las herramientas que necesitaba para trabajar con código y con GitHub.
+12. Instalar Visual Studio Code
+Primero descargué Visual Studio Code desde su página oficial.
+Busqué la página de descarga y seleccioné el instalador correspondiente.
+Cuando terminó la descarga, ejecuté el archivo y fui siguiendo los pasos de instalación.
+Durante la instalación acepté los términos y dejé activadas las opciones que necesitaba para poder utilizar Visual Studio Code de una manera más sencilla.
+Cuando terminó, abrí Visual Studio Code para comprobar que se hubiera instalado correctamente.
+13. Instalar Git
+Después instalé Git, que es la herramienta que permite trabajar con repositorios y llevar un control de los cambios que se hacen en los archivos.
+Descargué la versión correspondiente a mi sistema y durante la instalación dejé las opciones que aparecían por defecto.
+Cuando terminó la instalación, abrí la terminal para comprobar que Git estuviera disponible.
+También configuré mi nombre y correo con los siguientes comandos:
+git config --global user.name "TuNombre"
+git config --global user.email "tu_email@ejemplo.com"
+Aquí se deben cambiar los datos de ejemplo por el nombre y correo que se quieran utilizar para Git.
+14. Vincular Visual Studio Code con GitHub
+Después continué con GitHub.
+Primero entré a mi cuenta de GitHub. Después, desde Visual Studio Code, fui a la sección de Cuentas y busqué la opción para iniciar sesión o sincronizar la cuenta.
+Al seleccionar la opción correspondiente, se abrió el navegador para autorizar la conexión.
+Después de autorizar el acceso, Visual Studio Code quedó vinculado con mi cuenta de GitHub.
+15. Crear el primer repositorio
+Ya con GitHub conectado, entré a GitHub y seleccioné:
++ → New repository
+Después escribí el nombre que quería ponerle al repositorio y elegí si quería que fuera Público o Privado.
+Finalmente seleccioné Create repository.
+Una vez creado el repositorio, pude utilizar la opción Upload files / Add file para subir los archivos de mi trabajo.
+De esta manera terminé de configurar las herramientas que necesitaba y pude tener mi trabajo organizado en GitHub.
