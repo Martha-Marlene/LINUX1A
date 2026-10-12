@@ -1,0 +1,86 @@
+Fecha,Hora,Mensaje,longitud_mensaje,hora_en_segundos,anomaly_score,is_anomaly,anomaly_label
+09:04:02,Starting Lynis 3.1.6 with PID 40086, build date 2025-10-22,22,,-0.39970104718550253,-1,Anomalía
+09:04:02,====,,3,,0.0,1,Normal
+09:04:02,### 2007-2025, CISOfy - https://cisofy.com/lynis/ ###,39,,-0.43526115875771504,-1,Anomalía
+09:04:02,Checking permissions of /usr/share/lynis/include/profiles,,3,,0.0,1,Normal
+09:04:02,File permissions are OK,,3,,0.0,1,Normal
+09:04:02,Reading profile/configuration /etc/lynis/default.prf,,3,,0.0,1,Normal
+09:04:02,Action: created temporary file /tmp/lynis.vgG8Opz269,,3,,0.0,1,Normal
+09:04:02,Language set via profile to '',,3,,0.0,1,Normal
+09:04:02,Plugin 'authentication' enabled according profile (/etc/lynis/default.prf),,3,,0.0,1,Normal
+09:04:02,Plugin 'compliance' enabled according profile (/etc/lynis/default.prf),,3,,0.0,1,Normal
+09:04:02,Plugin 'configuration' enabled according profile (/etc/lynis/default.prf),,3,,0.0,1,Normal
+09:04:02,Plugin 'control-panels' enabled according profile (/etc/lynis/default.prf),,3,,0.0,1,Normal
+09:04:02,Plugin 'crypto' enabled according profile (/etc/lynis/default.prf),,3,,0.0,1,Normal
+09:04:02,Plugin 'dns' enabled according profile (/etc/lynis/default.prf),,3,,0.0,1,Normal
+09:04:02,Plugin 'docker' enabled according profile (/etc/lynis/default.prf),,3,,0.0,1,Normal
+09:04:02,Plugin 'file-integrity' enabled according profile (/etc/lynis/default.prf),,3,,0.0,1,Normal
+09:04:02,Plugin 'file-systems' enabled according profile (/etc/lynis/default.prf),,3,,0.0,1,Normal
+09:04:02,Plugin 'firewalls' enabled according profile (/etc/lynis/default.prf),,3,,0.0,1,Normal
+09:04:02,Plugin 'forensics' enabled according profile (/etc/lynis/default.prf),,3,,0.0,1,Normal
+09:04:02,Plugin 'hardware' enabled according profile (/etc/lynis/default.prf),,3,,0.0,1,Normal
+09:04:02,Plugin 'intrusion-detection' enabled according profile (/etc/lynis/default.prf),,3,,0.0,1,Normal
+09:04:03,Plugin 'intrusion-prevention' enabled according profile (/etc/lynis/default.prf),,3,,0.0,1,Normal
+09:04:03,Plugin 'kernel' enabled according profile (/etc/lynis/default.prf),,3,,0.0,1,Normal
+09:04:03,Plugin 'malware' enabled according profile (/etc/lynis/default.prf),,3,,0.0,1,Normal
+09:04:03,Plugin 'memory' enabled according profile (/etc/lynis/default.prf),,3,,0.0,1,Normal
+09:04:03,Plugin 'nginx' enabled according profile (/etc/lynis/default.prf),,3,,0.0,1,Normal
+09:04:03,Plugin 'pam' enabled according profile (/etc/lynis/default.prf),,3,,0.0,1,Normal
+09:04:03,Plugin 'processes' enabled according profile (/etc/lynis/default.prf),,3,,0.0,1,Normal
+09:04:03,Plugin 'security-modules' enabled according profile (/etc/lynis/default.prf),,3,,0.0,1,Normal
+09:04:03,Plugin 'software' enabled according profile (/etc/lynis/default.prf),,3,,0.0,1,Normal
+09:04:03,Plugin 'system-integrity' enabled according profile (/etc/lynis/default.prf),,3,,0.0,1,Normal
+09:04:03,Plugin 'systemd' enabled according profile (/etc/lynis/default.prf),,3,,0.0,1,Normal
+09:04:03,Plugin 'users' enabled according profile (/etc/lynis/default.prf),,3,,0.0,1,Normal
+09:04:03,Plugin 'krb5' enabled according profile (/etc/lynis/default.prf),,3,,0.0,1,Normal
+09:04:03,Plugin 'debian' enabled according profile (/etc/lynis/default.prf),,3,,0.0,1,Normal
+09:04:05,Reading profile/configuration /etc/lynis/custom.prf,,3,,0.0,1,Normal
+09:04:05,Set option to default value: NTPD_ROLE --> client,,3,,0.0,1,Normal
+09:04:05,====,,3,,0.0,1,Normal
+09:04:05,Program version:           3.1.6,,3,,0.0,1,Normal
+09:04:05,Operating system:          Linux,,3,,0.0,1,Normal
+09:04:05,Operating system name:     Ubuntu,,3,,0.0,1,Normal
+09:04:05,Operating system version:  26.04,,3,,0.0,1,Normal
+09:04:05,Kernel version:            7.0.0,,3,,0.0,1,Normal
+09:04:05,Kernel version (full):     7.0.0-31-generic,,3,,0.0,1,Normal
+09:04:05,Hardware platform:         x86_64,,3,,0.0,1,Normal
+09:04:05,-----------------------------------------------------,,3,,0.0,1,Normal
+09:04:05,Hostname:                  egurvide,,3,,0.0,1,Normal
+09:04:05,Auditor:                   [Not Specified],,3,,0.0,1,Normal
+09:04:05,Profiles:                  /etc/lynis/default.prf /etc/lynis/custom.prf,,3,,0.0,1,Normal
+09:04:05,Work directory:            /home/egurvide/scripts,,3,,0.0,1,Normal
+09:04:05,Include directory:         /usr/share/lynis/include,,3,,0.0,1,Normal
+09:04:05,Plugin directory:          /etc/lynis/plugins,,3,,0.0,1,Normal
+09:04:05,-----------------------------------------------------,,3,,0.0,1,Normal
+09:04:05,Log file:                  /var/log/lynis.log,,3,,0.0,1,Normal
+09:04:05,Report file:               /var/log/lynis-report.dat,,3,,0.0,1,Normal
+09:04:05,Report version:            1.0,,3,,0.0,1,Normal
+09:04:05,-----------------------------------------------------,,3,,0.0,1,Normal
+09:04:05,Test category:             all,,3,,0.0,1,Normal
+09:04:05,Test group:                all,,3,,0.0,1,Normal
+09:04:05,BusyBox used:              0,,3,,0.0,1,Normal
+09:04:05,====,,3,,0.0,1,Normal
+09:04:05,Test: Checking for program update...,,3,,0.0,1,Normal
+09:04:05,Upgrade test skipped due profile option set (skip_upgrade_test),,3,,0.0,1,Normal
+09:04:05,Current installed version  : 316,,3,,0.0,1,Normal
+09:04:05,Latest stable version      : 316,,3,,0.0,1,Normal
+09:04:05,No Lynis update available.,,3,,0.0,1,Normal
+09:04:05,====,,3,,0.0,1,Normal
+09:04:05,Checking permissions of /usr/share/lynis/include/binaries,,3,,0.0,1,Normal
+09:04:05,File permissions are OK,,3,,0.0,1,Normal
+09:04:05,====,,3,,0.0,1,Normal
+09:04:05,Action: Performing tests from category: System tools,,3,,0.0,1,Normal
+09:04:05,Start scanning for available audit binaries and tools...,,3,,0.0,1,Normal
+09:04:05,====,,3,,0.0,1,Normal
+09:04:06,Performing test ID CORE-1000 (Check all system binaries),,3,,0.0,1,Normal
+09:04:06,Status: Starting binary scan...,,3,,0.0,1,Normal
+09:04:06,Test: Checking binaries in directory /snap/bin,,3,,0.0,1,Normal
+09:04:06,Directory /snap/bin exists. Starting directory scanning...,,3,,0.0,1,Normal
+09:04:06,Test: Checking binaries in directory /bin,,3,,0.0,1,Normal
+09:04:06,"Result: directory exists, but is actually a symlink",,3,,0.0,1,Normal
+09:04:06,Action: checking symlink for file /bin,,3,,0.0,1,Normal
+09:04:06,Setting temporary readlinkbinary variable,,3,,0.0,1,Normal
+09:04:06,Result: readlink shows /usr/bin as output,,3,,0.0,1,Normal
+09:04:06,"Result: symlink found, pointing to directory /usr/bin",,3,,0.0,1,Normal
+09:04:06,Result: found the path behind this symlink (/bin --> /usr/bin),,3,,0.0,1,Normal
+09:04:06,Directory /usr/bin exists. Starting directory scanning...,,3,,0.0,1,Normal
